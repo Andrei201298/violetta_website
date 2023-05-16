@@ -27,7 +27,7 @@
 
     <div class="cards">
         <div class="grid-container">
-            <div class="services">
+            <div class="services zoom" onClick="window.location='./#services'"">
                 <h4>Services</h4>
                 <img id="shapes" src="src/shapes.png" alt="shapes">
                 <div id="service">  
@@ -36,15 +36,15 @@
 
                 <img class="icon" src="src/arrow-down.png" alt="icon-arrow">
             </div>
-            <div class="work">
+            <div class="work zoom" onClick="window.location='./#work'">
                 <h4>Work</h4>
                 <img class="icon" src="src/laptop.png" alt="icon-laptop">
             </div>
-            <div class="about">
+            <div class="about zoom" onClick="window.location='./#about'">
                 <h4>About</h4>
                 <img class="icon" src="src/user.png" alt="icon-user">
             </div>
-            <div class="contact">
+            <div class="contact zoom" onClick="window.location='./#contact'">
                 <h4>Contact</h4>
                 <img class="icon" src="src/send.png" alt="icon-send">
             </div>
@@ -57,13 +57,16 @@
         <div class="intro content">
             <h3>WHAT I DO</h3>
             <h1>I deliver impressive website solutions to my clients,
-                 created with expertise & enthusiasm.</h1>
+                 created with expertise & enthusiasm.
+            </h1>
+            <img id="cercl_purpl" src="src/cercl_purpl.png" alt="more_project">
+            <img id="arrow_purpl" src="src/arrow_down_purple.png" alt="arrow_down">
         </div>
     </div>
 
 
 
-    <div class="services">
+    <div class="services" id="services">
 
         <div class="grid-container">
 
@@ -99,7 +102,7 @@
     </div>
 
 
-    <div class="decription">
+    <div class="decription" id="about">
         <div class="entroduce">
             <div class="title">
                 <h1 >Who I am?</h1>
@@ -144,9 +147,9 @@
 
 
 
-    <div class="portfolio">
+    <div class="portfolio" id="work">
         
-        <div class="jewerly cas">
+        <div class="jewerly cas zoom">
 
             <div class="cas_title">
                 <text>01.</text>
@@ -160,7 +163,7 @@
 
         </div>
 
-        <div class="flowers cas">
+        <div class="flowers cas zoom">
             
             <div class="cas_title">
                 <text>02.</text>
@@ -174,7 +177,7 @@
 
         </div>
 
-        <div class="bernice cas">
+        <div class="bernice cas zoom">
 
             <div class="cas_title">
                 <text>03.</text>
@@ -187,8 +190,9 @@
             </div>
         </div>
 
-        <div class="more cas">
-            <img src="src/more.png" alt="more">
+        <div class="more cas zoom">
+            <img id="cercl" src="src/cercl.png" alt="cercl">
+            <img id="arrow-up-right" src="src/arrow-up-right-light.png" alt="arrow_right">
         </div>
 
     </div>
@@ -205,29 +209,29 @@
             </h1>
         </div>
         <div class="buttons">
-            <div class="be">
+            <div class="be" onClick="window.location='https://www.behance.net/violettasuokas'">
                 <img src="src/icons-be.png" alt="">
             </div>
-            <div class="in">
+            <div class="in" onClick="window.location='https://www.linkedin.com/in/violetta-suokas-65a888143/'">
                 <img src="src/icons-in.png" alt="">
             </div>
         </div>
     </div>
 
-    <div class="contact_form">
+    <div class="contact_form" id="contact">
         <form action="https://formsubmit.co/antiwebdev@gmail.com" method="POST">   
             <input class="contact title" type="text" name="name" placeholder="Name" required>
             <input class="contact title" type="email" name="email" placeholder="E-mail" required>
             <input class="contact title" type="text" name="_subject" placeholder="Subject">
             <input class="contact subtitle" type="text" name="message" placeholder="Message" required>
-            <button type="submit">
+            <button type="submit" class="zoom">
                 <img src="src/send.png" alt="send">
                 <h3>Send</h3>
             </button>
         </form>
     </div>
 
-    <footer>
+    <footer id="footer">
         <div class="copyright">
             <text>Copyright 2022</text>
             <img src="src/logo.svg" alt="letta">

@@ -44,6 +44,19 @@ text{
     padding: 0px;
 }
 
+.zoom {
+    transition: transform .2s; 
+  }
+  
+  .zoom:hover {
+    transform: scale(0.98); 
+    cursor:pointer;
+  }
+
+  @keyframes rotation {
+    100% {transform: rotate(360deg);}
+  }
+
 /* Header Section */
 
 
@@ -151,6 +164,7 @@ text{
 
 .intro{
     padding: 0px;
+    position: relative;
 }
 
 .intro.content{
@@ -158,9 +172,34 @@ text{
     color: #B3B0FF; 
     text-align: left;
     line-height: 118px;
-    padding: 149px 121px;
-    margin-bottom: 7.5rem;
+    padding: 171px 121px;
+    padding-top: 129px;
+    margin-bottom: 10px;
 }
+
+.intro h1{
+    margin: 0px;
+}
+
+/* .intro img{
+    position: relative;
+} */
+
+#cercl_purpl{
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    animation: rotation 10s infinite linear;
+}
+
+#arrow_purpl{
+    position: absolute;
+    right: 90px;
+    bottom: 80px;
+
+}
+
+
 
 
           /* SERVICES */
@@ -212,7 +251,7 @@ padding-top: 100px;
     border-radius: 30px;
     background-color: #1D1C16;
     padding: 130px 155px 94px 124px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 
 .decription .entroduce{
@@ -251,12 +290,12 @@ padding-top: 100px;
     border-style: solid;
     border-width: 2px;
     padding: 20px;
-    margin: 10px 5px 10px 0px;
+    margin: 10px 20px 10px 0px;
 }
 
 .abilyties div text{
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .abilyties div img{
@@ -270,6 +309,7 @@ padding-top: 100px;
 .portfolio{
     position: relative;
     height: 750px;
+    margin-bottom: 10px;
 } 
      
 
@@ -348,11 +388,24 @@ padding-top: 100px;
     position: absolute;
     right: 0px;
     bottom: 0px;
+
 }
 
 .more img{
-    margin: 50px;
-    margin-top: 110px;
+    position: absolute;
+}
+
+#cercl{
+    right: 100px;
+    top: 100px;
+    animation: rotation 10s infinite linear;
+}
+
+#arrow-up-right{
+    right: 155px;
+    top: 155px;
+    width: 63px;
+    height: 63px;
 }
 
 
@@ -376,11 +429,12 @@ padding-top: 100px;
 }
 
 .contacts .buttons div{
+    cursor:pointer;
     border-style: solid;
     border-width: 2px;
     border-radius: 100px;
     padding: 40px 100px;
-    margin-right: 10px;
+    margin-right: 20px;
     display: inline-flex;
 }
 
