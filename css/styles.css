@@ -44,7 +44,11 @@ text{
     padding: 0px;
 }
 
-.zoom {
+
+            /* ANIMATIONS */
+
+
+  .zoom {
     transition: transform .2s; 
   }
   
@@ -204,42 +208,33 @@ text{
 
           /* SERVICES */
 
-
-
-.services .grid-container {
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 715px 715px;
-}
-
-.services .grid-container div{
-    display: block;
-    
-}
-
-.services .grid-container .name div{
-    background-color:#AEE2FF;
+.services_container div{
+    height: 249px;
+    width: 715px;
+    border-radius: 30px;
     margin-bottom: 10px;
-    color: black;
-    height: 243px;
-    padding: auto;
+    position: relative;
 }
 
-.services h2{
-    position: absolute;
-    margin: 100px;
-}
 
-.services h3{
-padding-top: 100px;
-}
 
-.services .grid-container .description div{
+
+.description{
     background-color: #1D1C16;
-    height: 243px;
-    margin-bottom: 10px;
     color: #AEE2FF;
-    text-align: center;
+    display: inline-block;
+    transform: translate(-150%, 0px);
+    transition: transform 0.5s ease;
+    left: 50%;
+}
+
+.name{
+    background-color:#AEE2FF;
+    color: black;
+    display: inline-block;
+    transform: translate(-49.5%, 0px);
+    transition: transform 0.5s ease;
+    left: 50%;
 }
 
 
