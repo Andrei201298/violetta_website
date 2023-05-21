@@ -64,7 +64,7 @@ function moveShape2() {
     shape.style.transform = 'translate(' + endX + 'px, ' + endY + 'px) rotate(' + randomRotation + 'deg)';
   }, 10);
 }
-
+moveShape2();
 setInterval(moveShape2, 4000);
 
 function moveShape3() {
@@ -87,5 +87,5 @@ function moveShape3() {
     shape.style.transform = 'translate(' + endX + 'px, ' + endY + 'px) rotate(' + randomRotation + 'deg)';
   }, 10);
 }
-
+moveShape3();
 setInterval(moveShape3, 4000);
