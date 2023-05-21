@@ -21,6 +21,8 @@ h2{
     font-size: 54px;
     font-weight: 300;
     letter-spacing: 0.1rem;
+    padding: 0px;
+    margin: 0px;
 }
 
 h3 {
@@ -133,7 +135,29 @@ text{
     height: 319.92px;
     margin-left: 420px;
     margin-right: 86px;
+    position: relative;
 }
+
+#shape_1{
+    position: absolute;
+    width: 134px;
+    height: 117px;
+    transition: transform 4s linear;
+}
+
+#shape_2{
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    transition: transform 4s linear;
+}
+#shape_3{
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    transition: transform 4s linear;
+}
+
 
 .grid-container .services text{
     margin-left: 50px;
@@ -209,7 +233,7 @@ text{
           /* SERVICES */
 
 .services_container div{
-    height: 249px;
+
     width: 715px;
     border-radius: 30px;
     margin-bottom: 10px;
@@ -220,12 +244,33 @@ text{
 
 
 .description{
+
     background-color: #1D1C16;
     color: #AEE2FF;
     display: inline-block;
     transform: translate(-150%, 0px);
     transition: transform 0.5s ease;
     left: 50%;
+
+}
+
+.one {
+    padding-top: 113px;
+    padding-bottom: 99px;
+}
+
+.two {
+    padding-top: 113px;
+    padding-bottom: 99px;
+}
+.three {
+    padding-top: 77px;
+    padding-bottom: 99px;
+}
+
+.three h3{
+    width: 600px;
+    margin-left: 50px;
 }
 
 .name{
@@ -233,8 +278,11 @@ text{
     color: black;
     display: inline-block;
     transform: translate(-49.5%, 0px);
-    transition: transform 0.5s ease;
+    transition: transform 1s ease;
     left: 50%;
+    z-index: 9999;
+    padding-top: 90px;
+    height: 159px;
 }
 
 
