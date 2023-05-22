@@ -71,8 +71,8 @@ function moveShape3() {
   var shape = document.querySelector('#shape_3');
   var div = document.querySelector('#shapes');
 
-  var divWidth = div.offsetWidth - 20;
-  var divHeight = div.offsetHeight - 20;
+  var divWidth = div.offsetWidth - 120;
+  var divHeight = div.offsetHeight - 100;
 
   var startX = Math.random() < 0.5 ? 0 : divWidth;
   var startY = Math.floor(Math.random() * divHeight);
