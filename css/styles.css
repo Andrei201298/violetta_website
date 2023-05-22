@@ -143,6 +143,7 @@ text{
     width: 134px;
     height: 117px;
     transition: transform 4s linear;
+    z-index: 999;
 }
 
 #shape_2{
@@ -150,12 +151,14 @@ text{
     width: 74px;
     height: 74px;
     transition: transform 4s linear;
+    z-index: 1000;
 }
 #shape_3{
     position: absolute;
     width: 199px;
     height: 173px;
     transition: transform 4s linear;
+    z-index: 998;
 }
 
 
