@@ -91,6 +91,9 @@ moveShape3();
 setInterval(moveShape3, 4000);
 
 
+//// be and linkedid buttons animations
+
+
 // Получаем элементы по их ID
 var div = document.getElementById("be_button");
 var image = document.getElementById("be_button_img");
@@ -132,4 +135,10 @@ div2.addEventListener("mouseout", function() {
   image2.src = "src/icons-in.png";
   div2.style.backgroundColor = "#1D1C16";
 });
+
+
+// WHO I AM Animation
+
+$('#maindiv').width($('#div1').width());
+
 
