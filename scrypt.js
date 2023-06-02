@@ -89,3 +89,47 @@ function moveShape3() {
 }
 moveShape3();
 setInterval(moveShape3, 4000);
+
+
+// Получаем элементы по их ID
+var div = document.getElementById("be_button");
+var image = document.getElementById("be_button_img");
+
+// Обработчик события при наведении курсора на див
+div.addEventListener("mouseover", function() {
+  // Изменяем путь src изображения
+  image.src = "src/icons-be-dark.svg";
+  image.style.height = "38.25px";
+  image.style.width = "38.25px";
+  image.style.padding = "0px";
+  div.style.backgroundColor = "#FAF4B7";
+});
+
+// Обработчик события при уходе курсора с дива
+div.addEventListener("mouseout", function() {
+  // Возвращаем исходный путь src изображения
+  image.src = "src/icons-be.png";
+  image.style.height = "38.25px";
+  image.style.width = "38.25px";
+  div.style.backgroundColor = "#1D1C16";
+});
+
+var div2 = document.getElementById("in_button");
+var image2 = document.getElementById("in_button_img");
+
+// Обработчик события при наведении курсора на див
+div2.addEventListener("mouseover", function() {
+  // Изменяем путь src изображения
+  image2.src = "src/icons-in-dark.svg";
+  image2.style.height = "38.25px";
+  image2.style.width = "38.25px";
+  div2.style.backgroundColor = "#FAF4B7";
+});
+
+// Обработчик события при уходе курсора с дива
+div2.addEventListener("mouseout", function() {
+  // Возвращаем исходный путь src изображения
+  image2.src = "src/icons-in.png";
+  div2.style.backgroundColor = "#1D1C16";
+});
+

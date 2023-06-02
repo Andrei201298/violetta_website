@@ -200,6 +200,7 @@ text{
 
 .intro.content{
     background-color: #1D1C16;
+    border-radius:30px;
     color: #B3B0FF; 
     text-align: left;
     line-height: 118px;
@@ -300,6 +301,7 @@ text{
     margin-bottom: 10px;
 }
 
+
 .decription .entroduce{
     text-align: left;
     margin-bottom: 140px;
@@ -309,6 +311,8 @@ text{
     display: flex;
 
 }
+
+
 
 .decription .entroduce text{
     width: 515px;
@@ -485,6 +489,7 @@ text{
 }
 
 
+
             /* CONTACT_FORM */
 
 
@@ -522,6 +527,7 @@ input, select, textarea{
 }
 
 .contact_form button{
+    color: #1D1C16;
     position: absolute;
     top: 0px;
     right: 0px;
