@@ -139,6 +139,6 @@ div2.addEventListener("mouseout", function() {
 
 // WHO I AM Animation
 
-document.getElementById('#maindiv').width($('#div1').width());
+document.getElementById('#maindiv').width(document.getElementById('#div1').width());
 
 
