@@ -490,6 +490,11 @@ text{
     border-radius: 30px;
     margin-bottom: 10px;
 }   
+
+.contacts .title{
+    margin-bottom: 90px;
+}
+
 .contacts .subtitle{
     margin-bottom: 40px;
 }         
