@@ -127,8 +127,8 @@ text{
 }
 
 .grid-container .services .icon{
-    padding-right: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 7px;
+    margin-bottom: -20px;
 }
 
 #shapes{
